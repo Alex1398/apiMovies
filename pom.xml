@@ -11,6 +11,7 @@
 	<groupId>com.testApi.apiMovie</groupId>
 	<artifactId>apiMovie</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>apiMovie</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -25,7 +26,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -52,6 +52,8 @@
 					</excludes>
 				</configuration>
 			</plugin>
+
+
 		</plugins>
 	</build>
 
